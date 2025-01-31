@@ -1,4 +1,5 @@
-# Restaurant-Review-Sentiment-Analysis-Model
+# RestoMood
+
 I developed a Natural Language Processing (NLP) model to determine the sentiment of restaurant reviews, classifying them as either positive or negative. This project showcases my ability to handle text data, perform data preprocessing, and implement machine learning algorithms for sentiment analysis.
 
   
