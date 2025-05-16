@@ -48,7 +48,7 @@ RestoMood is a sentiment analysis pipeline designed to classify restaurant revie
      ```bash
      jupyter lab   # or jupyter notebook
      ```
-   * Open `restomood_analysis.ipynb` and execute all cells.
+   * Open `Restaurant_Review_NLP.ipynb` and execute all cells.
 
 > **Note:** No special environment setup is needed; commonly available Python libraries suffice.
 
