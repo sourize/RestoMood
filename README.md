@@ -1,47 +1,71 @@
-# RestoMood
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+\[![Python Version](https://img.shields.io/badge/Python-3.x-green.svg)]
+\[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)]
 
-I developed a Natural Language Processing (NLP) model to determine the sentiment of restaurant reviews, classifying them as either positive or negative. This project showcases my ability to handle text data, perform data preprocessing, and implement machine learning algorithms for sentiment analysis.
+# RestoMood 🍽️🔍
 
-  
+## 🚀 Project Overview
 
-**Key Steps and Methodologies:**
+RestoMood is a sentiment analysis pipeline designed to classify restaurant reviews as **positive** or **negative**. Leveraging NLP techniques and machine learning, this project transforms raw text feedback into actionable insights, enabling businesses to gauge customer satisfaction effectively.
 
-1.  **Dataset Preparation:**
-    
-    -   Utilized a Restaurant Review dataset containing various customer reviews.
-        
-    -   Performed extensive data cleaning to remove noise and ensure high-quality inputs.
-        
-2.  **Feature Extraction:**
-    
-    -   Applied the Bag of Words model to convert textual data into numerical features.
-        
-    -   This technique allowed for the transformation of text into a structured format suitable for machine learning algorithms.
-        
-3.  **Model Training:**
-    
-    -   Implemented the Naive Bayes algorithm, a popular choice for text classification tasks due to its simplicity and effectiveness.
-        
-    -   Trained the model using the extracted features from the Bag of Words representation.
-        
-4.  **Model Evaluation:**
-    
-    -   Achieved an accuracy of 73% on the test dataset, indicating a reliable performance in predicting the sentiment of restaurant reviews.
-        
-          
-        
+## 🎯 Key Objectives
 
-**Technologies and Tools:**
+* **Text Preprocessing:** Clean and normalize review data to eliminate noise.
+* **Feature Engineering:** Convert text into numerical vectors using the Bag-of-Words approach.
+* **Model Training:** Employ Naive Bayes classifier for robust sentiment prediction.
+* **Performance Evaluation:** Measure and optimize model accuracy on unseen data.
 
--   Python for programming.
-    
--   Scikit-learn for machine learning and model implementation.
-    
--   Pandas and Numpy for data manipulation and preprocessing.
-    
-      
-    
+## 🛠️ Features & Highlights
 
-**Outcome:**
+| Feature                  | Description                                                    |
+| ------------------------ | -------------------------------------------------------------- |
+| **Data Cleaning**        | Remove punctuation, stopwords, and perform tokenization.       |
+| **Vectorization**        | Apply Bag-of-Words to translate text into feature vectors.     |
+| **Model Implementation** | Train and validate a Naive Bayes classifier on review data.    |
+| **Performance Metrics**  | Evaluate using accuracy, precision, recall, and F1-score.      |
+| **Deployable Pipeline**  | Modular code structure for easy integration into applications. |
 
-The sentiment analysis model can accurately classify restaurant reviews as positive or negative, providing valuable insights for businesses to understand customer feedback. This project highlights my proficiency in NLP, data preprocessing, and the application of machine learning algorithms.
+## 🧰 Tech Stack & Libraries
+
+* **Language:** Python 3.x
+* **NLP & ML:** Scikit-learn
+* **Data Handling:** Pandas, NumPy
+* **Text Processing:** NLTK (stopwords, tokenization)
+* **Notebook:** Jupyter Lab/Notebook
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/RestoMood.git
+   cd RestoMood
+   ```
+2. **Run the Jupyter Notebook**
+
+   * Launch Jupyter:
+
+     ```bash
+     jupyter lab   # or jupyter notebook
+     ```
+   * Open `restomood_analysis.ipynb` and execute all cells.
+
+> **Note:** No special environment setup is needed; commonly available Python libraries suffice.
+
+## 📊 Results & Insights
+
+* **Test Accuracy:** Achieved **73%** accuracy on the holdout set.
+* **Model Strength:** Fast training and inference, suitable for real-time feedback.
+* **Business Value:** Quickly pinpoint positive and negative trends in customer reviews.
+
+## 🔗 Data Source
+
+Customer review dataset compiled from public restaurant feedback repositories.
+
+## 🤝 Contributors
+
+* Sourish Chatterjee ([LinkedIn](https://www.linkedin.com/in/sourish-chatterjee/))
+
+---
+
+*Ready to mood-check restaurant reviews? Fire up the notebook and explore!*
